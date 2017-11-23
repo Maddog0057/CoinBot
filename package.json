@@ -1,0 +1,14 @@
+{
+  "name": "CoinBot",
+  "version": "1.0.0",
+  "description": "Discord connector for ProfitTrailer",
+  "main": "bot.js",
+  "author": "Maddog",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "node-bittrex-api": "^0.7.6",
+    "node.bittrex.api": "^1.0.0",
+    "prompt": "^1.0.0",
+    "winston": "^2.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "coinbot",
+      "script": "./CoinBot.js",
+      "watch" : true,
+      "env": {
+        "NODE_ENV": "prod"
+      },
+      "node_args": [],
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "exec_interpreter": "",
+      "exec_mode": "fork",
+	  "autorestart": true
+    }
+  ]
+}
